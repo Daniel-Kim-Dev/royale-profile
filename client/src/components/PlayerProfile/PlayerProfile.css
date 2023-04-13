@@ -1,0 +1,24 @@
+.LoaderContainer, .CenterSearchContainer {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.PlayerProfile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.MainContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px;
+  margin-top: 90px;
+  margin-bottom: 20px;
+  padding: 0 20px;
+  border-radius: 5px;
+  background-color: white;
+}

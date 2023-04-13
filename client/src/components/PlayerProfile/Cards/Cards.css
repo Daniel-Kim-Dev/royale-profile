@@ -1,0 +1,16 @@
+.Cards {
+  margin-top: 30px;
+}
+
+.CardsLevelContainer {
+  margin-bottom: 30px;
+}
+
+.CardsLevelHeading {
+  margin-bottom: 0;
+}
+
+.CardsNotFound {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}

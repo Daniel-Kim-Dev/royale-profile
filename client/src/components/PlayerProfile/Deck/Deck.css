@@ -1,0 +1,42 @@
+.Deck {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.DeckHeading {
+  align-self: flex-start;
+}
+
+.DeckCardsContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.DeckCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: flex-end;
+}
+
+.DeckCardLevel {
+  margin: 0;
+}
+
+@media only screen and (max-width: 800px) {
+  .DeckCardsContainer {
+    flex-wrap: wrap;
+  }
+
+  .DeckCard {
+    flex-basis: 21%;
+    margin-bottom: 15px;
+  }
+
+  .CardImage {
+    width: 150px;
+  }
+}

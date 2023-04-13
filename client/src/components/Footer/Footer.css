@@ -1,0 +1,17 @@
+.Footer {
+  margin-top: auto;
+  text-align: center;
+  background-color: #413F42;
+}
+
+.FooterText {
+  margin-right: 20px;
+  margin-left: 20px;
+  color: white;
+}
+
+@media only screen and (max-width: 1850px) {
+  .Footer {
+    z-index: 99;
+  }
+}

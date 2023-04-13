@@ -1,0 +1,16 @@
+.SearchContainer {
+  text-align: center;
+  background-color: white;
+  border-radius: 5px;
+  padding: 100px;
+}
+
+.SearchContainerLine {
+  border-top: 3px solid #bbb;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.UserButton {
+  cursor: pointer;
+}

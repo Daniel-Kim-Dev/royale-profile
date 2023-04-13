@@ -1,0 +1,39 @@
+.NavBar {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #413F42;
+  padding: 15px 0;
+  z-index: 2;
+}
+
+.Logo {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+
+@media only screen and (max-width: 450px) {
+  .NavBar {
+    justify-content: flex-end;
+  }
+
+  .NavSearchBar {
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 310px) {
+  .NavBar {
+    justify-content: center;
+  }
+
+  .Logo {
+    display: none;
+  }
+
+  .NavSearchBar {
+    margin: 0;
+  }
+}
